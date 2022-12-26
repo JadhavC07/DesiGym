@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80vw;
+}
+
+.top-left {
+  width: 50%;
+}
+
+.top-right {
+  width: 50%;
+}
+
+.top-right .gymimg {
+  width: 466px;
+}
+.section-1 {
+  max-height: 100vh;
+  color: rgb(113, 30, 21);
+}
+
+.section-1 h1 {
+  font-size: 2rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+nav {
+  position: relative;
+}
+nav .logo span {
+  color: black;
+}
+nav ul li a{
+  cursor: pointer;
+  color: black;
+}
+.drop-down {
+  display: none;
+
+  width: 150px;
+}
+
+nav ul li:not(.nohover):hover {
+  border-bottom: 2px solid black;
+}
+
+nav ul li:not(.nohover):hover .drop-down {
+  display: block;
+  position: absolute;
+  right: 170px;
+}
+
+.drop-down ul {
+  display: block;
+  background-color: transparent;
+}
+
+.drop-down ul {
+  display: block;
+
+}
+.drop-down ul li {
+  padding: 20px 0;
+}
+
+.drop-down ul li a{
+  color: black;
+}
+
+
+.text-hover span:hover {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.dumbellimg {
+  width: 289px;
+}
+
+.section-2 {
+  padding: 73px;
+}
+
+.section-2 h1 {
+  font-size: 2.5rem;
+}
+
+.section-2 p {
+  padding: 0 8vw;
+  text-align: center;
+}
+
+.box {
+  padding: 8px 0px;
+  margin: 12px 22px;
+  min-width: 20vw;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.box h2 {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+.box li {
+  list-style-type: none;
+}
+
+.box ul li {
+  margin: 12px 2px;
+}
+
+.highlighted {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.plantable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 {
+  padding: 73px;
+}
+.section-3 h1 {
+  font-size: 2.5rem;
+}
+.section-3 table {
+  width: 100%;
+  margin-bottom: 140px;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+.section-3 table th {
+  width: 23vw;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+
+.section-3 table td {
+  border-bottom: 2px solid black;
+}
+
+footer {
+  padding: 23px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 2px groove white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.deal {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 12px 0;
+}
+
+@media (max-width: 600px) {
+  .gymimg {
+    visibility: hidden;
+  }
+  .dumbellimg {
+    align-items: center;
+    text-align: center;
+  }
+}
